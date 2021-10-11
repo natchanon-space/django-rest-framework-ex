@@ -17,6 +17,14 @@ python manage.py loaddata calendar_data
 # run server and explorer api
 python manage.py runserver
 ```
+
+## vue installation
+```
+# change directory to frontend and install vue dependencies
+cd frontend
+npm install
+```
+
 ## List of Urls
 ```py
 urlpatterns = [
