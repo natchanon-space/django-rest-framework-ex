@@ -23,5 +23,6 @@ class CalendarSerializer(serializers.ModelSerializer):
         fields = (
             "id",
             "name",
-            "slug"
+            "slug",
+            "get_absolute_url"
         )
